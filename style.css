@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header nav {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.navigation ul li {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 28.75px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 145px;
+
+  background-image: url(./img/header.png);
+  min-height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.header__title button {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40.25px;
+  background: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+}
+
+
+/* main */
+
+.bir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E1C25;
+  padding-bottom: 125px;
+}
+
+
+
+
+.uch__tepa {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  color: white;
+  list-style: none;
+}
+
+.uch__tepa h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  margin: 30px 0 50px 0;
+
+}
+
+.uch__past {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 105px;
+}
+
+.title {
+  margin-bottom: 64px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40.25px;
+
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+}
+
+.main__bottom {
+  background-color: #5C6B81;
+  text-align: center;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.text-1 {
+  padding: 43px 0 63px 0;
+}
+
+.box-1 {
+  width: 312px;
+  background-color: rgba(177, 43, 6, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  align-items: center;
+}
+
+.img-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-1 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.box-1 p {
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+}
+
+.box-1__button {
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 25px;
+  margin-bottom: 12px;
+  margin-top: 7px;
+  width: fit-content;
+}
+
+/* footer boshlandi */
+footer {
+  background-color: black;
+  color: white;
+}
+
+.pastkiqism {
+  text-align: center;
+
+  padding: 47px 62px 55px 62px;
+}
+
+.Logofooter ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__4 {
+  padding-bottom: 37px;
+}
